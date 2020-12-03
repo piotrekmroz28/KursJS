@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang='en'>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name='viewport' content="width=device-width, initial-scale=1.0">
+        <title>Udemy Statystyki Tekstu - Projekt</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <textarea></textarea>
+        <div>
+            <div>Ilośc znaków: <span id='num-characters'></span></div>
+            <div>Ilośc słów: <span id='num-words'></span></div>
+            <div>Ilośc zdań: <span id='num-sentences'></span></div>
+        </div>
+        <script>
+            let textArea = document.getElementsByTagName("textarea")[0];
+
+            textArea.addEventListener("input", onChange);
+
+            function onChange(e){
+                
+                const data = textArea.value;
+                const numCharacters = data.trim().length;
+                const words = data.replace(/[\r\n]/g, " ").trim().split(" ").length;
+                var sentenses = data.split(".").length;
+                if (data[numCharacters-1] == "."){
+                   sentenses = sentenses - 1;
+                }
+                
+
+                document.getElementById("num-characters").innerHTML = numCharacters;
+                document.getElementById("num-words").innerHTML = words;
+                document.getElementById("num-sentences").innerHTML = sentenses;
+            }
+        </script>
+    </body>
+</html>
