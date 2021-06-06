@@ -1,0 +1,48 @@
+
+input {
+    display: block; 
+    width: 16rem; 
+    margin: 0.3rem;
+    border: 1px solid silver;
+    font-size: 2rem;
+}
+
+.numbers button, .operators button {
+    display: inline-block;
+    width: 3rem;
+    height: 3rem;
+    margin: 0.1rem;
+    outline-width: 0;
+    border: 2px solid silver;
+}
+
+button:hover { 
+    border-color: gray;
+}
+  
+button:active {
+    font-weight: bold;
+    background: silver ;
+}
+
+button.big-button {
+    height: 6rem;
+}
+
+
+.clear {
+    background-color: lightsalmon;
+}
+
+.result {
+    background-color: lightskyblue;
+}
+
+
+.left-panel, .right-panel {
+    display: inline-block;
+    vertical-align: top;
+    margin: 0.3rem;
+}
+
+
