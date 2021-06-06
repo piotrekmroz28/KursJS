@@ -1,0 +1,227 @@
+html {
+    height: 100%;
+}
+
+body {
+    margin: 0 auto;
+    background-color: rgb(204, 204, 204);
+    height: 100%;
+}
+
+table {
+    width: 100%;
+}
+
+.upperbody {
+    position: absolute;
+    height: auto;
+    width: auto;
+    top: 70px;
+    margin: auto;
+    cursor: pointer;
+}
+
+.zdjecieRozciagniete {
+    width: 100%;
+}
+
+.container {
+    height: 100%;
+    width: 80%;
+    margin: auto;
+    max-width: 1200px;
+    min-width: 800px;
+}
+
+.foot {
+    margin-top: 10px;
+    font-size: 10px;
+    text-align: center;
+    height: 30px;
+}
+
+.title {
+    height: 65px;
+    width: 100%;
+    background-color: rgb(188, 221, 218);
+    border-radius: 0px 0px 10px 10px;
+}
+
+.data {
+    margin-top: 10px;
+    height: calc(100% - 65px - 10px - 30px - 10px);
+    width: 100%;
+    max-width: 1200px;
+    min-width: 800px;
+    overflow: auto;
+}
+
+#tytul {
+    font-family: 'Alfa Slab One', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    margin: auto;
+}
+
+.menu {
+    margin-top: 10px;
+    margin-left: 2px;
+}
+
+.lewyMedia {
+    position: absolute;
+    left: 0px;
+    top: 200px;
+    height: auto;
+    width: 40px;
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+}
+
+.ikonkaSocialMedia {
+    width: 100%;
+}
+
+.tabelaOgolna {
+    width: 100%;
+    height: auto;
+}
+
+.Zdjecie {
+    width: 200px;
+    margin-top: 15px;
+}
+
+.Zdjecie1 {
+    width: 300px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+.tdOpisowe {
+    text-align: center;
+    background-color: azure;
+    border-radius: 20px;
+    font-family: 'Englebert', sans-serif;
+}
+
+.miedzyTabelowe {
+    height: 5px;
+}
+
+
+/*------------------ Menu rozwijane ----------------*/
+
+
+/* ------------------------CZĘŚĆ-GÓRNA-MENU------------------------ */
+
+
+/* wygląd głównego elementu - ol */
+
+ol {
+    margin-top: 5px;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    font-size: 12px;
+    height: 2em;
+    line-height: 2em;
+    text-align: center;
+}
+
+
+/* wygląd wszystkich elementów - a - znajdujących się w elemencie - ol */
+
+ol a {
+    display: block;
+    text-decoration: none;
+    color: #000;
+    padding: 0 5px;
+}
+
+
+/* wygląd elementów - li - wszystkich dzieci elementu - ol */
+
+ol>li {
+    float: left;
+    width: calc(20% - 1px);
+    margin-left: 1px;
+    /*background-color: #d6abab;*/
+    height: 2em;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+
+/* wygląd elementu - li - pierwszego dziecka elementu - ol */
+
+ol>li:first-child {
+    margin-left: 0;
+}
+
+
+/* wygląd elementów - li - wszystkich dzieci elementu - ol - po najechaniu kursorem myszki na element - li */
+
+ol>li:hover {
+    background-color: #EEE;
+}
+
+
+/* wygląd elementu - a - dziecka elementu - li - będącego dzieckiem elementu - ol - po najechaniu kursorem myszki na element - li */
+
+ol>li:hover>a {
+    color: #09C;
+}
+
+
+/* wygląd elementu - ul - dziecka elementu - li - będącego dzieckiem elementu - ol - po najechaniu kursorem myszki na element - li */
+
+ol>li:hover>ul {
+    display: block;
+}
+
+
+/* ------------------------CZĘŚĆ-ROZWIJANA-MENU------------------------ */
+
+
+/* wygląd głównych rozwijanych elementów - ul */
+
+ol>li>ul {
+    display: none;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    font-weight: 200;
+}
+
+
+/* wygląd elementu - li - w części rozwijanej */
+
+ol>li>ul>li {
+    position: relative;
+    background-color: #EEE;
+    padding-left: 4px;
+    padding-right: 4px;
+}
+
+
+/* wygląd elementu - a - w części rozwijanej */
+
+ol>li>ul>li>a {
+    border-top: 1px solid #FFF;
+}
+
+
+/* wygląd elementu - li - w części rozwijanej, po najechaniu kursorem myszki na dany element - li */
+
+ol>li>ul>li:hover {
+    background-color: #DDD;
+}
+
+
+/* wygląd elementu - a - w części rozwijanej, po najechaniu kursorem myszki na element - li */
+
+ol>li>ul>li:hover>a {
+    color: #09C;
+}
