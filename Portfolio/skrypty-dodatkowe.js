@@ -64,6 +64,9 @@ function kursy() {
     dane[0][7] = ikonaHTML5_1;
     dane[1][7] = opisHTML5_1;
     dane[2][7] = certyfHTML5_1;
+    dane[0][8] = ikona4coursesin1;
+    dane[1][8] = opis4coursesin1;
+    dane[2][8] = certy4coursesin1;
     console.log(dane);
     tworzenieTabeli(dane);
     dane = undefined;

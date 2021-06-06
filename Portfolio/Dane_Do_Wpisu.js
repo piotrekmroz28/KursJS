@@ -16,6 +16,7 @@ var ikonaBazaSQLSK = "<a href='https://strefakursow.pl/kursy/programowanie/kurs_
 var ikonaJSWprow = "<a href='https://strefakursow.pl/kursy/programowanie/ekosystem_javascript_-_wprowadzenie.html' target='_blank'><img src='https://api.strefakursow.pl//uploads/web_course/Ekosystem-JavaScript-wprowadzenie.jpg' alt='https://api.strefakursow.pl//uploads/web_course/Fundamenty-programowania.jpg' class='ikonkaSocialMedia'></a>";
 var ikonaJSUdemy1 = "<a href='https://www.udemy.com/course/kurs-programowanie-w-javascript-od-zera-do-mastera/' target='_blank'><img src='https://img-c.udemycdn.com/course/240x135/3616902_3ae1_6.jpg?Expires=1622102065&Signature=hHTs6aeP1U2aVRgK66oTpiZvFSMTdQ40MiE15WFnA5xSXxmHMxx9leMyF0gGVci2dUeX07wVZAoHHxcPnY18f0kfg6LQWTjOKOUT63ZVg7nVeeYB~oucrz7Gc~kZ6wwVZ1g0q-7DIM7wPJb2MmTTIa3IVIP2OMwJSFuw0ElKbDVWT9Bfzb83exOswOgud5nT2NA7Btm~vjEYiwlBuuJGYlOx3dUXPKZWxIMRSJrhJHe2EiIrK5f3M64gL1HbOoSYFSJc9EftBwzYoD5AbcWDoz~RGeOWIIkO3dMK2ZN~CqCu9Hu5pFMc0k8jdMXacvaA-nXjyuARQ0JlNXL~oYyDiQ__&Key-Pair-Id=APKAITJV77WS5ZT7262A' alt='https://api.strefakursow.pl//uploads/web_course/Fundamenty-programowania.jpg' class='ikonkaSocialMedia'></a>";
 var ikonaHTML5_1 = "<a href='https://strefakursow.pl/kursy/programowanie/kurs_html_5_1_-_podstawy_tworzenia_stron.html' target='_blank'><img src='https://api.strefakursow.pl//uploads/web_course/Kurs-HTML-5-1.jpg' alt='graphics/StrefaKursow.png' class='ikonkaSocialMedia'></a>";
+var ikona4coursesin1 = "<a href='https://www.udemy.com/course/responsive-web-development/' target='_blank'><img src='https://img-b.udemycdn.com/course/240x135/1426718_abb7_2.jpg?secure=Ex1u_8wEg92-TyIMbR-PDg%3D%3D%2C1623090070' alt='https://api.strefakursow.pl//uploads/web_course/Fundamenty-programowania.jpg' class='ikonkaSocialMedia'></a>";
 var certyfAutoCad = "<img src='graphics/AutoCADCer-mini.png' alt='X' class='ikonkaSocialMedia'>";
 var certyfEdgeCam1 = "<img src='graphics/ECCer1-mini.png' alt='X' class='ikonkaSocialMedia'>";
 var certyfEdgeCam2 = "<img src='graphics/CertFundProg-mini.png' alt='X' class='ikonkaSocialMedia'>";
@@ -24,6 +25,7 @@ var certyfBazaSQLSK = "<img src='graphics/SQL-mini.png' alt='X' class='ikonkaSoc
 var certyfJSWprow = "<img src='graphics/JS1-mini.png' alt='X' class='ikonkaSocialMedia'>";
 var certyfJSUdemy1 = "<img src='graphics/JS2-mini.png' alt='X' class='ikonkaSocialMedia'>";
 var certyfHTML5_1 = "<img src='graphics/CertHTML5.1-mini.png' alt='X' class='ikonkaSocialMedia'>";
+var certy4coursesin1 = "<img src='graphics/Cert4coursesin1-mini.png' alt='X' class='ikonkaSocialMedia'>";
 /* Obrazki do pracy */
 var ikonaStanPlus = "<a href='http://www.stanplus.pl' target='_blank'><img src='graphics/StanPlus-logo.png' alt='X' class='ikonkaSocialMedia'></a>";
 var ikonaEtronika = "<a href='https://www.etronika.pl' target='_blank'><img src='graphics/Etronika.png' alt='X' class='ikonkaSocialMedia'></a>";
@@ -47,6 +49,7 @@ var opisSzkolBazaSQLSK = "Nazwa Kursu: <b>Kurs SQL nowoczesne bazy danych</b></b
 var opisSzkolJSWprow = "Nazwa Kursu: <b>Ekosystem JavaScript - wprowadzenie</b></br>Organizator: <b>strefakursów</b> </br> Poziom: <b>Podstawowy</b></br> Data ukończenia: <b>20.05.2020</b>";
 var opisSzkolJSUdemy1 = "Nazwa Kursu: <b>Programowanie w JavaScript od Zera do Mastera</b></br>Organizator: <b>Udemy</b> </br> Poziom: <b>Podstawowy</b></br> Data ukończenia: <b>20.05.2020</b>";
 var opisHTML5_1 = "Nazwa Kursu: <b>Kurs HTML 5.1 - podstawy tworzenia stron</b></br>Organizator: <b>Strefa Kursów</b> </br> Poziom: <b>Podstawowy</b></br> Data ukończenia: <b>02.06.2021</b>";
+var opis4coursesin1 = "Nazwa Kursu: <b>Complete Responsive Web Development: 4 courses in 1</b></br>Organizator: <b>Udemy</b> </br> Poziom: <b>Podstawowy</b></br> Data ukończenia: <b>06.06.2021</b>";
 /* Opisy do pracy */
 var opisPracaStanPlus = "<b>Specjalista do spraw produkcji</b> lipiec 2016 - marzec 2017 </br>Stanplus Mazowiecka Fabryka Mebli (Mińsk Mazowiecki) </br>-Planowanie kolejności wykonywania zleceń, </br>-Rozpisywanie kodów maszynowych, </br>-Rozwiązywanie problemów produkcyjnych, </br>-Współpraca z kierownikami poszczególnych działów.";
 var opisPracaEtronika = "<b>Technolog</b> lipiec 2018 - obecnie </br>Etronika Sp. z o.o. (Sulejówek)</br>-Opracowanie technologii wykonania elementów produkcyjnych,</br>-Nadzór nad przyjmowaną dokumentacją techniczną,</br>-Opracowanie dokumentacji technologicznej,</br>-Bieżące rozwiązywanie problemów technologicznych,</br>-Współpraca z działem konstrukcyjnym,</br>Nadzorowanie i ciągłe rozwijanie wewnętrznej bazy danych,";
